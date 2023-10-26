@@ -1,0 +1,5 @@
+[config]
+url = https://ctf.tcp1p.com/
+access_token =
+
+[challenges]
