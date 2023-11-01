@@ -1,4 +1,4 @@
-# Von Neumann Architecture
+# Discovery
 
 ## Description
 ```
