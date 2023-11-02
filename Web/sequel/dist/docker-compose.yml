@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - 8080:8080
+    environment:
+      - DATASRC=${DB_USER}:${DB_PASS}@tcp(db:3306)/${DB_NAME}
+    depends_on:
+      db:
+        condition: "service_started"
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASS}
+      - MYSQL_ROOT_PASSWORD=${DB_PASS}
+    volumes:
+      - ./sql/:/docker-entrypoint-initdb.d/
