@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= "My First Pug Website"
+    link(rel="icon" type="image/png" href="/public/favicon.png")/
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css")
+  body
+    div(class="container")
+      div(class="row gap-2 m-5")
+        div(class="col-12")
+          h1="Note App"
+        div(class="col-12")
+          form(action="/note", method="POST", class="row gap-2")
+            label(for="note") Enter your note:
+            textarea(name="note", id="note", rows="4", cols="50")
+            br
+            button(class="btn btn-primary", type="submit") Submit
+
+
+
