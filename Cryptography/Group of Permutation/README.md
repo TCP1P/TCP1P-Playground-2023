@@ -1,0 +1,15 @@
+# Group of Permutation
+
+## Description
+```
+Author: ZafiN
+
+can you find the order?
+```
+
+## Release
+- chall.sage
+- output.txt
+
+## Flag
+`TCP1P{n_factorial_is_order_of_permutation_group_with_degree_n_37d1d28a7899dde62a66c38f07f6399eec850fb345282492009267eaa30a50edc83fe0813bf3b98e7b3b7164cc1518cb7d3e6bb7ff708da5d3628593558b97e4}`
