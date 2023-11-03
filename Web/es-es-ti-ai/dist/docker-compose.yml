@@ -5,3 +5,10 @@ services:
     build: .
     ports:
       - 8000:8000
+    networks:
+      - no_internet
+
+networks:
+  no_internet:
+    driver: bridge
+    internal: true
