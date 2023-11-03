@@ -1,4 +1,4 @@
-# Jealous
+# Group of Permutation
 
 From the question on the description. The goal is to find order of Permutation Group to get the flag.
 
