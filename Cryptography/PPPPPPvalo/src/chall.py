@@ -3,9 +3,9 @@ from Crypto.Cipher import PKCS1_OAEP
 from libnum import s2n
 flag = open("./src/flag.txt", "rb").read()
 assert(flag.startswith(b"TCP1P{"))
-flag.replace(b'TCP1P{', b'')
+flag = flag.replace(b'TCP1P{', b'')
 assert(flag.endswith(b"}"))
-flag.replace(b'}', b'')
+flag = flag.replace(b'}', b'')
 
 key = RSA.generate(1024)
 cipher = PKCS1_OAEP.new(key)
