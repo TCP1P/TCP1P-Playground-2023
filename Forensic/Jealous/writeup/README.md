@@ -10,12 +10,16 @@ Based on my analysis (sorry if there are mistakes because this is also very new 
 
 For more detailed artifacts, please visit the following link :
 http://www.csroc.org.tw/journal/JOC30_1/JOC-3001-12.pdf
+
+
 https://kinetik.umm.ac.id/index.php/kinetik/article/view/850/pdf
+
+
 Thanks a lot for people who have made the above journal. I really appreciate it :D
 
 So how do we know the chat history? To find out this, the approach taken by the author is quite simple.
 1. Dump the memory of the Line.exe process
-2. We need to know at least 1 message sent or received by chizuru so that we can analyze whether there is a certain order in memory for the entire chat history in memory at that time.
+2. We need to know at least 1 message sent or received by chizuru so that we can analyze whether there is a certain order in memory for the entire chat history at that time.
 3. To find this 1 message, the approach that can be taken is to execute the strings command and then grep "text" (referring to the text format in the previous journal) in the memory dump result of the Line.exe process. 
 4. Once one of the messages is obtained, we can use the hexeditor to find at which offset the message appears
 5. After that, we can analyze whether there is a pattern that can be utilized and voila, there is :D. The pattern that exists in memory and can be used to acquire chat history is the string "e2eeMark" in each message. My assumption is that it is a marker of end to end encryption.
@@ -45,4 +49,4 @@ Found: b'angka yang kamu bilang penting'
 
 ```
 
-The text above is a sample of the chat line history from parsingLine.py. Unfortunately using this method still produces some duplicate messages, out of sequence, and incomplete messages so we still need to guess what is actually being discussed. As in the example above, there are some messages that are out of sequence (read from top to bottom). In this chall, I just want to insert a bit of basic RSA crypto where the values of both prime factorizations are known, and just decrypt the ciphertext. 
+The text above is a sample of the chat line history from parsingLine.py. Unfortunately using this method still produces some duplicate messages, out of sequence, and incomplete messages so we still need to guess what is actually being discussed. As in the example above, there are some messages that are out of sequence (read from bottom to top). In this chall, I just want to insert a bit of basic RSA crypto where the values of both prime factorizations are known, and just decrypt the ciphertext. 
