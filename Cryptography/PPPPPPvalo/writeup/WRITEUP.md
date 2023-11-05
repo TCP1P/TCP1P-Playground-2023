@@ -1,0 +1,1 @@
+Tinggal turunkan equationnya, tinggal ingat inequality juga penting dalam number theory, bisa muncul sesuatu yang menarik 
