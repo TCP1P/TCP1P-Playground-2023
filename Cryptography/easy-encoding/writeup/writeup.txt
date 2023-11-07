@@ -1,1 +1,0 @@
-Looking for various encoding bases? if you find a complete article then there will be base65536 so you just have to decode base65536 to text
