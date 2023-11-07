@@ -1,0 +1,47 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "extension error"
+author: "Neiya"
+category: Forensic
+description: |
+    **Author**: `Neiya`
+
+    WHAT?? he really damaged my files
+
+value: 0
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+
+connection_info:
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - TCP1P{coruppt1on_im4ge_because_WHAT??hhh!!!}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - forensic
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+files:
+    - ./dist/corrupted.pdf
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
