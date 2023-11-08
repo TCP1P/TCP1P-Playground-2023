@@ -15,8 +15,12 @@ class PRNG:
         self.state = self.state % self.n
         return self.state
 
-FLAG = open("src/flag.txt", "rb").read().strip()
-pt = s2n(FLAG)
+flag = open("src/flag.txt", "rb").read().strip()
+assert(flag.startswith(b"TCP1P{"))
+flag = flag.replace(b'TCP1P{', b'')
+assert(flag.endswith(b"}"))
+flag = flag.replace(b'}', b'')
+pt = s2n(flag)
 PRNG = PRNG()
 
 with open("src/out.txt", "w+") as f:
