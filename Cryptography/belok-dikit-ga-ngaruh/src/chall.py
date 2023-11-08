@@ -5,8 +5,8 @@ class PRNG:
     def __init__(self):
         self.n = getStrongPrime(2048)
         self.state = getRandomNBitInteger(2047)
-        self.a = getRandomNBitInteger(24)
-        self.b = getRandomNBitInteger(24)
+        self.a = getRandomNBitInteger(2046)
+        self.b = getRandomNBitInteger(2045)
         for i in range(10):
             self.next_number()
     
