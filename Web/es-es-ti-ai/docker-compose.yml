@@ -4,11 +4,17 @@ services:
   app:
     build: .
     ports:
-      - 8000:8000
+      - 63459:8000
     networks:
       - no_internet
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
 
 networks:
   no_internet:
     driver: bridge
-    internal: true
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'

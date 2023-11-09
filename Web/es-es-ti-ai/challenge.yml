@@ -24,6 +24,8 @@ extra:
 flags:
     - TCP1P{es_es_ti_ai_is_realy_common_in_ctf_haha...}
 
+connection_info: http://ctf.tcp1p.com:63459
+
 # Tags are used to classify your challenge with topics. You should provide at
 # least one.
 # Can be removed if unused
