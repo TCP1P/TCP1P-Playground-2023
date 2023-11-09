@@ -1,7 +1,9 @@
-FROM oven/bun:latest
+FROM node:latest
 
 WORKDIR /app
+COPY ./server/package.json .
+RUN npm i
 COPY ./server .
-RUN bun run build
-ENV FLAG="fake{flag}"
-RUN ["bun", "run", "start"]
+ENV FLAG="fakeflag{}"
+RUN npm run build
+CMD ["npm", "run", "start"]
