@@ -1,5 +1,23 @@
 [config]
 url = https://ctf.tcp1p.com/
-access_token =
+access_token = ctfd_3b7c2048499066524de33587cce9d2de976c728b63d9b66394df0f712f8c902c
 
 [challenges]
+./PWN/Infinite Jackpot = ./PWN/Infinite Jackpot
+./PWN/NakiriAyame = ./PWN/NakiriAyame
+./PWN/Discovery = ./PWN/Discovery
+./PWN/Isolated = ./PWN/Isolated
+./PWN/Infinite Jackpot 2 = ./PWN/Infinite Jackpot 2
+./PWN/Echo = ./PWN/Echo
+./Forensic/extension-error = ./Forensic/extension-error
+./Forensic/Jealous = ./Forensic/Jealous
+./Forensic/puzzle-dimensions = ./Forensic/puzzle-dimensions
+./Forensic/Revenge = ./Forensic/Revenge
+./Cryptography/belok-dikit-ga-ngaruh = ./Cryptography/belok-dikit-ga-ngaruh
+./Cryptography/PPPPPPvalo = ./Cryptography/PPPPPPvalo
+./Reverse Engineering/IOP = ./Reverse Engineering/IOP
+./Web/fetcher = ./Web/fetcher
+./Web/es-es-ti-ai = ./Web/es-es-ti-ai
+./Web/sequel = ./Web/sequel
+./Web/prototype = ./Web/prototype
+

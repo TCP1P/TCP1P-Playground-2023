@@ -19,7 +19,7 @@ for dir in $directories; do
             sudo COMPOSE_HTTP_TIMEOUT=999999 docker-compose --compatibility up --build --detach
 
         }
-    )
+    )&
 done
 
 wait
