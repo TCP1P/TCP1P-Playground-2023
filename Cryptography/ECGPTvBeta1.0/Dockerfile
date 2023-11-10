@@ -15,9 +15,10 @@ RUN pip3 install -r /home/ctf/chall/requirements.txt
 RUN mkdir -p /home/ctf/chall/src
 
 COPY ./src /home/ctf/chall/src
-COPY ./config /home/ctf/chall/src
+COPY ./config/run.sh /home/ctf/chall/src
 
 RUN chown -R root:root /home/ctf/chall
+RUN chmod +x /home/ctf/chall/src/run.sh
 
 WORKDIR /home/ctf/chall/src
 

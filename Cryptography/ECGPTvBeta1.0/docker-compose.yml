@@ -1,4 +1,4 @@
-version: '1'
+version: '3'
 services:
   read-around:
     build: .
@@ -7,3 +7,7 @@ services:
     read_only: false
     ports:
       - 8010:8010
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
