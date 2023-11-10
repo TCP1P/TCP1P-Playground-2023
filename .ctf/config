@@ -20,4 +20,6 @@ access_token = ctfd_3b7c2048499066524de33587cce9d2de976c728b63d9b66394df0f712f8c
 ./Web/es-es-ti-ai = ./Web/es-es-ti-ai
 ./Web/sequel = ./Web/sequel
 ./Web/prototype = ./Web/prototype
+./Misc/fmtstr = ./Misc/fmtstr
+./Web/jwt-aes-gcm = ./Web/jwt-aes-gcm
 
