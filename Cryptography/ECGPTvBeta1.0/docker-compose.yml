@@ -1,0 +1,9 @@
+version: '1'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: ECGPTvBeta1.0
+    read_only: false
+    ports:
+      - 8010:8010
