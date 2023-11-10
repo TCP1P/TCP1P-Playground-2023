@@ -1,0 +1,46 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "JWT AES GCM"
+author: "Dimas"
+category: Web
+description: |
+    **Author**: `Dimas`
+
+    I swear it's not crypto challenge :(
+value: 1
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - TCP1P{this_is_why_you_must_check_the_tag_lenght_in_openssl_decrypt}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - AES-GCM
+    - PHP
+    - Exploitation
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+files:
+    - dist.zip
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
