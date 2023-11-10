@@ -13,6 +13,5 @@ $session = $jwt->decode($_COOKIE["jwt"]);
 if ($session["role"] === "admin"){
     echo getenv("FLAG");
 }else{
-    print_r($session);
     echo "Hello World";
 }
