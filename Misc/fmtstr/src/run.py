@@ -10,4 +10,4 @@ _____ ____ ____  _ ____  _ _ _____ __  __ ____ _____ ____
 """)
 
 name = input("Input Your Name: ")
-print(("hi "+name+"!").format())
+print(("hi "+name+"!").format(name=name))
