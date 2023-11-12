@@ -35,6 +35,7 @@ tags:
 # Accepts strings
 files:
     - ./dist/chall
+    - ./dist/Dockerfile
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.
