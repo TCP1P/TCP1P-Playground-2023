@@ -8,8 +8,7 @@ Do you watch Jujutsu Kaisen 2?
 ```
 
 ## Release
-- chall
-- Dockerfile
+- dist.zip
 
 ## Flag
 `TCP1P{Full_Pr0t3ct10n_1s_N0t_4_Pr0bl3m_4t_4ll}`
