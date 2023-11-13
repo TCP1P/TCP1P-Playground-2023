@@ -23,7 +23,7 @@ connection_info: nc ctf.tcp1p.com 10001
 # Can be removed if unused
 # Accepts strings or dictionaries
 flags:
-    - TCP1P{4r3_Y0u_K1nj1_H4k4r1!!!??}
+    - TCP1P{Are_You_Kinji_Hakari!!!??}
 
 # Tags are used to classify your challenge with topics. You should provide at
 # least one.

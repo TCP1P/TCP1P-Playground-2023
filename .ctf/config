@@ -24,4 +24,8 @@ access_token = ctfd_3b7c2048499066524de33587cce9d2de976c728b63d9b66394df0f712f8c
 ./Web/jwt-aes-gcm = ./Web/jwt-aes-gcm
 ./Cryptography/ECGPTvBeta1.0 = ./Cryptography/ECGPTvBeta1.0
 ./Misc/sanity-check = ./Misc/sanity-check
+./Cryptography/Group of Permutation = ./Cryptography/Group of Permutation
+./PWN/Hide and Seek 3 = ./PWN/Hide and Seek 3
+./PWN/Hide and Seek = ./PWN/Hide and Seek
+./PWN/Hide and Seek 2 = ./PWN/Hide and Seek 2
 

@@ -30,5 +30,5 @@ CREATE TABLE IF NOT EXISTS secret (
 
 -- Insert a CTF flag into the "secret" table
 INSERT INTO secret (flag)
-    VALUES ('TCP1P{sequel_injection_and_code_analysis_is_amazing_right?}');
+    VALUES ('TCP1P{Sequel_Injection_With_Some_Golang_JSON_Unmarshal_bypass!}');
 
