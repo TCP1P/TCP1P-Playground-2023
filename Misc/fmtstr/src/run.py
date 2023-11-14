@@ -1,13 +1,12 @@
 #!/bin/env python3
 
-print(r"""
-_____ ____ ____  _ ____  _ _ _____ __  __ ____ _____ ____
-|_   _/ ___|  _ \/ |  _ \| | |  ___|  \/  / ___|_   _|  _ \
-  | || |   | |_) | | |_) | | | |_  | |\/| \___ \ | | | |_) |
-  | || |___|  __/| |  __/| | |  _| | |  | |___) || | |  _ <
-  |_| \____|_|   |_|_|   | | |_|   |_|  |_|____/ |_| |_| \_\
-                         |_|_|
-""")
+class run():
+  def __init__(self) -> None:
+    pass
+  def r(self):
+    code = input("input your code: ")
+    if any([(i in code) for i in ["(", " "]]):
+      return
+    print(eval(code))
 
-name = input("Input Your Name: ")
-print(("hi "+name+"!").format(name=name))
+run().r()
