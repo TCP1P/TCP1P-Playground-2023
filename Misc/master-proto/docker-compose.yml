@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    build: .
+    ports:
+        - '32906:1337'
+    privileged: true
