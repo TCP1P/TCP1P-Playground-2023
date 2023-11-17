@@ -2,7 +2,7 @@ version: '3'
 services:
   timetogo:
     image: timetogo
-    build: .
+    build: ./src
     restart: always
     environment:
       - TERM=xterm

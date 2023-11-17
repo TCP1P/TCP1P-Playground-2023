@@ -29,4 +29,6 @@ access_token = ctfd_3b7c2048499066524de33587cce9d2de976c728b63d9b66394df0f712f8c
 ./PWN/Hide and Seek = ./PWN/Hide and Seek
 ./PWN/Hide and Seek 2 = ./PWN/Hide and Seek 2
 ./Web/magic-collision = ./Web/magic-collision
+./Misc/master-proto = ./Misc/master-proto
+./PWN/Time to Go = ./PWN/Time to Go
 
