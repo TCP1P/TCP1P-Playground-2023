@@ -61,7 +61,7 @@ connection_info: nc ctf.tcp1p.com 23345
 # Accepts strings or dictionaries of CTFd API data
 flags:
     # A static case sensitive flag
-    - TCP1P{fallback_tr1gger_1s_basic_kn0wledge}
+    - TCP1P{fallback_tr1gger_1s_basic_kn0wledge}ayam
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
