@@ -11,6 +11,10 @@ contract Setup {
         solved = true;
     }
 
+    receive() external payable{
+        solved = false;
+    }
+
     function isSolved() external view returns (bool) {
         return solved;
     }
