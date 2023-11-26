@@ -2,7 +2,7 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Publicly Secret Machine"
+name: "FFF"
 author: "Kiinzu"
 category: Blockchain
 description: |
@@ -46,7 +46,7 @@ host: null
 # Optional settings
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc ctf.tcp1p.com 23345
+connection_info: http://ctf.tcp1p.com:44044/
 
 # healthcheck is a tool/script used to check a challenge
 # If connection_info was provided to CTFd when the challenge was installed, it will be passed to the healthcheck script:
@@ -61,7 +61,7 @@ connection_info: nc ctf.tcp1p.com 23345
 # Accepts strings or dictionaries of CTFd API data
 flags:
     # A static case sensitive flag
-    - TCP1P{fallback_tr1gger_1s_basic_kn0wledge}ayam
+    - TCP1P{F4LLB4CK_Is_Lik3_b4ck_T0_B4s1C_StufF}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins

@@ -1,21 +1,17 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
 
-contract outback {
-    string private flag;
-    bool public solved;
-
-    constructor(){
-        flag = "Trial Flag";
+contract Setup {
+    bool private solved;
+    constructor() payable {
+        solved = false;
     }
 
-    function isSolved() external view returns(string memory) {
-        require(solved, "You have not solved the challenge!");
-        return flag;
-    }
-
-    fallback() external payable {
+    fallback() external payable{
         solved = true;
     }
 
+    function isSolved() external view returns (bool) {
+        return solved;
+    }
 }
