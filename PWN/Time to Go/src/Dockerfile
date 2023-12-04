@@ -14,7 +14,6 @@ COPY ./startchall.sh /usr/bin/startchall
 COPY ./xinetd /etc/xinetd.d/xinetd
 
 RUN chown -R root:ctf /home/ctf && chmod -R 550 /home/ctf
-RUN chown root:root /home/ctf/flag.txt && chmod 400 /home/ctf/flag.txt
 RUN chmod 500 /etc/xinetd.d/xinetd && chmod 500 /usr/bin/startchall
 
 CMD ["/usr/bin/startchall"]
