@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "31079:80"
+    restart: always
+    environment:
+      FLAG: "TCP1P{Soal Dari CTF sebelah tapi di permudah :)}"

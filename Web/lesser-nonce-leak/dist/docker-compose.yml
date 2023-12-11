@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - "31079:80"
+    environment:
+      FLAG: "fake{flag}"
