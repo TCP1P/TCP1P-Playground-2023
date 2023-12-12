@@ -1,0 +1,1 @@
+{"name": "css-leak-repo", "version": "1.0.18", "description": "", "main": "leak.css", "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}, "author": "", "license": "ISC"}

