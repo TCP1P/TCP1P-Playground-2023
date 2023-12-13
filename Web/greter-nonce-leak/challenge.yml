@@ -57,7 +57,7 @@ connection_info: http://ctf.tcp1p.com:31080
 # Can be removed if unused
 # Accepts strings or dictionaries of CTFd API data
 flags:
-    - TCP1P{Well, I am just an average CTF player in the face of international CTF. It should be the easiest challenge in 0CTF 2023, though.}
+    - TCP1P{Well, I am just an average CTF player in the face of international CTF. It should be the easiest challenge in 0CTF 2023, though.ef5df815-8cf8-47e4-8cff-15e534bbf994}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins

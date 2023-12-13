@@ -8,4 +8,4 @@ services:
       - "31080:80"
     restart: always
     environment:
-      FLAG: "TCP1P{Well, I am just an average CTF player in the face of international CTF. It should be the easiest challenge in 0CTF 2023, though.}"
+      FLAG: "TCP1P{Well, I am just an average CTF player in the face of international CTF. It should be the easiest challenge in 0CTF 2023, though.ef5df815-8cf8-47e4-8cff-15e534bbf994}"
