@@ -1,0 +1,5 @@
+Publicly Secret Machine
+
+Original source: https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Blockchain/Publicly%20Secret%20Machine
+
+Local archive note: no player attachment files were present.

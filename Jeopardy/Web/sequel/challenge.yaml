@@ -1,0 +1,19 @@
+name: sequel
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  My website is very secure because it''s under maintenance :)
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/sequel).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{Sequel_Injection_With_Some_Golang_JSON_Unmarshal_bypass!}
+provide: dist

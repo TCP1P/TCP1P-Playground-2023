@@ -1,0 +1,19 @@
+name: Isolated
+author: msfir
+description: '**Author**: `msfir`
+
+
+  Can you sneak the shellcode?👀
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Isolated).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{Th4nk_Y0u_GL1BC_F0r_St0r1ng_My_4rgv!}
+provide: dist

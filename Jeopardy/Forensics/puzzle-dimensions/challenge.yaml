@@ -1,0 +1,19 @@
+name: Puzzle Dimensions
+author: Neiya
+description: '**Author**: `Neiya`
+
+
+  Do you know what happens if we cheat in playing puzzles?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/puzzle-dimensions).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{R3size_d1m3ns1on_im4ge}
+provide: dist

@@ -1,0 +1,19 @@
+name: Twice
+author: ZafiN
+description: '**Author**: `ZafiN`
+
+
+  twice > once ?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/Twice).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{nonce_reuse_attack_on_elgamal_encryption_goes_brr}
+provide: dist

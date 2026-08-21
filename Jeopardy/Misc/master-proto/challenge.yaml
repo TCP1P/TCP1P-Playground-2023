@@ -1,0 +1,19 @@
+name: master proto
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Intermediate prototype polution :)
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Misc/master-proto).'
+type: StaticAttachment
+category: Misc
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{setter_and_getter_in_js_really_handy_isn't:)}
+provide: dist

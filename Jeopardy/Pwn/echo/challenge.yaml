@@ -1,0 +1,19 @@
+name: Echo
+author: msfir
+description: '**Author**: `msfir`
+
+
+  Welcome to my Echo Chamber!
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Echo).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{H3h!!_Y0u_Qu1t3_Kn0w_4b0ut_GL1BC_D0nt't_Y0u?}
+provide: dist

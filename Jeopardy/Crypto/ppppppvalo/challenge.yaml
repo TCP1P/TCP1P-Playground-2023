@@ -1,0 +1,19 @@
+name: PPPPPPvalo
+author: azuketto
+description: '**Author**: `azuketto`
+
+
+  P P P P P P P P PP P PP P P PP P
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/PPPPPPvalo).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{pPPPppppPPPppPPppPPPppppGasMabar_7da37fc5}
+provide: dist

@@ -1,0 +1,399 @@
+{
+  "sourceRepository": "TCP1P/TCP1P-Playground-2023",
+  "targetRepository": "TCP1P/TCP1P-Playground-2023",
+  "private": false,
+  "events": [
+    "TCP1P Playground 2023"
+  ],
+  "challenges": [
+    {
+      "name": "FFF",
+      "category": "Blockchain",
+      "source": "Blockchain/Fallback Fallback Fallback!/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Blockchain/Fallback%20Fallback%20Fallback%21",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Blockchain/fff/challenge.yaml"
+    },
+    {
+      "name": "Publicly Secret Machine",
+      "category": "Blockchain",
+      "source": "Blockchain/Publicly Secret Machine/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Blockchain/Publicly%20Secret%20Machine",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Blockchain/publicly-secret-machine/challenge.yaml"
+    },
+    {
+      "name": "Transact",
+      "category": "Blockchain",
+      "source": "Blockchain/Transact/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Blockchain/Transact",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Blockchain/transact/challenge.yaml"
+    },
+    {
+      "name": "ECGPTvBeta1.0",
+      "category": "Crypto",
+      "source": "Cryptography/ECGPTvBeta1.0/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/ECGPTvBeta1.0",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/ecgptvbeta1-0/challenge.yaml"
+    },
+    {
+      "name": "Group of Permutation",
+      "category": "Crypto",
+      "source": "Cryptography/Group of Permutation/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/Group%20of%20Permutation",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/group-of-permutation/challenge.yaml"
+    },
+    {
+      "name": "PPPPPPvalo",
+      "category": "Crypto",
+      "source": "Cryptography/PPPPPPvalo/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/PPPPPPvalo",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/ppppppvalo/challenge.yaml"
+    },
+    {
+      "name": "Power Prime",
+      "category": "Crypto",
+      "source": "Cryptography/Power Prime/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/Power%20Prime",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/power-prime/challenge.yaml"
+    },
+    {
+      "name": "Twice",
+      "category": "Crypto",
+      "source": "Cryptography/Twice/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/Twice",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/twice/challenge.yaml"
+    },
+    {
+      "name": "Belok dikit ga ngaruh",
+      "category": "Crypto",
+      "source": "Cryptography/belok-dikit-ga-ngaruh/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Cryptography/belok-dikit-ga-ngaruh",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Crypto/belok-dikit-ga-ngaruh/challenge.yaml"
+    },
+    {
+      "name": "Jealous",
+      "category": "Forensics",
+      "source": "Forensic/Jealous/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/Jealous",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Forensics/jealous/challenge.yaml"
+    },
+    {
+      "name": "Revenge",
+      "category": "Forensics",
+      "source": "Forensic/Revenge/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/Revenge",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Forensics/revenge/challenge.yaml"
+    },
+    {
+      "name": "extension error",
+      "category": "Forensics",
+      "source": "Forensic/extension-error/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/extension-error",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Forensics/extension-error/challenge.yaml"
+    },
+    {
+      "name": "Puzzle Dimensions",
+      "category": "Forensics",
+      "source": "Forensic/puzzle-dimensions/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/puzzle-dimensions",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Forensics/puzzle-dimensions/challenge.yaml"
+    },
+    {
+      "name": "fmtstr",
+      "category": "Misc",
+      "source": "Misc/fmtstr/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Misc/fmtstr",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Misc/fmtstr/challenge.yaml"
+    },
+    {
+      "name": "master proto",
+      "category": "Misc",
+      "source": "Misc/master-proto/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Misc/master-proto",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Misc/master-proto/challenge.yaml"
+    },
+    {
+      "name": "Welcome",
+      "category": "Misc",
+      "source": "Misc/sanity-check/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Misc/sanity-check",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Misc/welcome/challenge.yaml"
+    },
+    {
+      "name": "Discovery",
+      "category": "Pwn",
+      "source": "PWN/Discovery/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Discovery",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/discovery/challenge.yaml"
+    },
+    {
+      "name": "Echo",
+      "category": "Pwn",
+      "source": "PWN/Echo/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Echo",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/echo/challenge.yaml"
+    },
+    {
+      "name": "Hide and Seek",
+      "category": "Pwn",
+      "source": "PWN/Hide and Seek/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Hide%20and%20Seek",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/hide-and-seek/challenge.yaml"
+    },
+    {
+      "name": "Hide and Seek 2",
+      "category": "Pwn",
+      "source": "PWN/Hide and Seek 2/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Hide%20and%20Seek%202",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/hide-and-seek-2/challenge.yaml"
+    },
+    {
+      "name": "Hide and Seek 3",
+      "category": "Pwn",
+      "source": "PWN/Hide and Seek 3/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Hide%20and%20Seek%203",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/hide-and-seek-3/challenge.yaml"
+    },
+    {
+      "name": "Infinite Jackpot",
+      "category": "Pwn",
+      "source": "PWN/Infinite Jackpot/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Infinite%20Jackpot",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/infinite-jackpot/challenge.yaml"
+    },
+    {
+      "name": "Infinite Jackpot 2",
+      "category": "Pwn",
+      "source": "PWN/Infinite Jackpot 2/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Infinite%20Jackpot%202",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/infinite-jackpot-2/challenge.yaml"
+    },
+    {
+      "name": "Isolated",
+      "category": "Pwn",
+      "source": "PWN/Isolated/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Isolated",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/isolated/challenge.yaml"
+    },
+    {
+      "name": "NakiriAyame",
+      "category": "Pwn",
+      "source": "PWN/NakiriAyame/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/NakiriAyame",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/nakiriayame/challenge.yaml"
+    },
+    {
+      "name": "Time to Go",
+      "category": "Pwn",
+      "source": "PWN/Time to Go/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Time%20to%20Go",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Pwn/time-to-go/challenge.yaml"
+    },
+    {
+      "name": "IOP",
+      "category": "Reverse",
+      "source": "Reverse Engineering/IOP/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Reverse%20Engineering/IOP",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Reverse/iop/challenge.yaml"
+    },
+    {
+      "name": "es-es-ti-ai",
+      "category": "Web",
+      "source": "Web/es-es-ti-ai/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/es-es-ti-ai",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/es-es-ti-ai/challenge.yaml"
+    },
+    {
+      "name": "fetcher",
+      "category": "Web",
+      "source": "Web/fetcher/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/fetcher",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'container' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/fetcher/challenge.yaml"
+    },
+    {
+      "name": "Greater Nonce Leak",
+      "category": "Web",
+      "source": "Web/greter-nonce-leak/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/greter-nonce-leak",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/greater-nonce-leak/challenge.yaml"
+    },
+    {
+      "name": "JWT AES GCM",
+      "category": "Web",
+      "source": "Web/jwt-aes-gcm/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/jwt-aes-gcm",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/jwt-aes-gcm/challenge.yaml"
+    },
+    {
+      "name": "Lesser Nonce Leak",
+      "category": "Web",
+      "source": "Web/lesser-nonce-leak/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/lesser-nonce-leak",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/lesser-nonce-leak/challenge.yaml"
+    },
+    {
+      "name": "magic collision",
+      "category": "Web",
+      "source": "Web/magic-collision/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/magic-collision",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/magic-collision/challenge.yaml"
+    },
+    {
+      "name": "prototype",
+      "category": "Web",
+      "source": "Web/prototype/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/prototype",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'container' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/prototype/challenge.yaml"
+    },
+    {
+      "name": "sequel",
+      "category": "Web",
+      "source": "Web/sequel/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/sequel",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "Jeopardy/Web/sequel/challenge.yaml"
+    }
+  ]
+}

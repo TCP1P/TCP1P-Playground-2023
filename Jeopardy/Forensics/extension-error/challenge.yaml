@@ -1,0 +1,19 @@
+name: extension error
+author: Neiya
+description: '**Author**: `Neiya`
+
+
+  WHAT?? he really damaged my files
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/extension-error).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{coruppt1on_im4ge_because_WHAT??hhh!!!}
+provide: dist

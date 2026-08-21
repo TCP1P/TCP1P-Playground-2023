@@ -1,0 +1,22 @@
+name: Jealous
+author: TunangannyaChizuru
+description: '**Author**: `TunangannyaChizuru`
+
+
+  hello i''m kazuya. I was a close friend of mizuhara chizuru back in college and i still can''t accept that haidar is chizuru''s legal fiancé now. I managed to hack into chizuru''s computer and also acquired her ram memory. Can you help me to see something interesting in it? I''ve often caught the two of them exchanging messages and smiling afterward like a couple who were dating for the first time. I really hate that.
+
+
+  Download Here: https://drive.google.com/file/d/1rQYjqUuK2R6HpKjQ5zGz2AodFRrroFus/view
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/Jealous).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{1_L0v3_Y0u_1n_Ev3ry_Un1v3rSe}
+provide: dist

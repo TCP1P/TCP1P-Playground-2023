@@ -1,0 +1,28 @@
+name: Publicly Secret Machine
+author: Kiinzu
+description: '**Author**: `Kiinzu`
+
+
+  They said my secret discord chat was leaked.
+
+  Ah forget it, it''s in the blockchain, no-one
+
+  Gonna find it, we won''t go to jail boy!
+
+
+  **Address**: 0x009E0915159B5f79336c6dFE1e747598aC46817a
+
+  **Network**: Sepolia
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Blockchain/Publicly%20Secret%20Machine).'
+type: StaticAttachment
+category: Blockchain
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{M4ch1n3_st4t3_in_3VM_1z_Easy_4nd_d4ng3r0us}
+provide: dist

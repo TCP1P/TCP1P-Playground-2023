@@ -1,0 +1,22 @@
+name: Revenge
+author: TunangannyaChizuru
+description: '**Author**: `TunangannyaChizuru`
+
+
+  Hi it''s me again kazuya, Not long after I took over chizuru''s computer, my connection to her computer was cut off by someone. I''m pretty sure it was Haidar. So I''d better not do anything first so that my relationship with Chizuru doesn''t get messed up. A week later, my best friend Kibe sent me a meme. He''s funny and likes to send me a lot of memes. But moments after I clicked on the meme, Files that were important to me suddenly became a bunch of garbage. Can you help me investigate this?
+
+
+  A little hint, you must know specifically what cve is being utilized.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Forensic/Revenge).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{S0_y0u_d4r3_d01n9_s0m3th1ng_b4d_t0_Ch1zuru?_Th1s_1s_4_f1tt1n9_r3w4rd_f0r_2cum_l1k3_y0u!}
+provide: dist

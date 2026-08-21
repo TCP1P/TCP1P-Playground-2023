@@ -1,0 +1,19 @@
+name: Infinite Jackpot
+author: msfir
+description: '**Author**: `msfir`
+
+
+  Do you watch Jujutsu Kaisen?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/PWN/Infinite%20Jackpot).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCP1P{Are_You_Kinji_Hakari!!!??}
+provide: dist

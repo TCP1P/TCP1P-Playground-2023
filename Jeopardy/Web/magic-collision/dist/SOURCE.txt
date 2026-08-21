@@ -1,0 +1,5 @@
+magic collision
+
+Original source: https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/magic-collision
+
+Local archive note: no player attachment files were present.
