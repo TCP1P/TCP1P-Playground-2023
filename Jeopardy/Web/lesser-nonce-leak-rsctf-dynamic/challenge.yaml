@@ -1,0 +1,22 @@
+name: Lesser Nonce Leak
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Not a baby CSS leak, but it''s should be easier than original challenge.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/lesser-nonce-leak).'
+type: DynamicContainer
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCP1P{lesser_nonce_leak________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 80
+  enableTrafficCapture: false

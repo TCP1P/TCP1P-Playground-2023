@@ -1,0 +1,14 @@
+name: FFF
+author: Kiinzu
+description: "**Author**: `Kiinzu`\n\nI do think basic knowledge is important.  \nLet's go back to basic shall we?\n\n---\nHistorical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Blockchain/Fallback%20Fallback%20Fallback%21)."
+type: DynamicContainer
+category: Blockchain
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCP1P{fff_________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: false

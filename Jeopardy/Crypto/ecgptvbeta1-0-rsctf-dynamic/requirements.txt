@@ -1,0 +1,5 @@
+libnum
+ecdsa
+tensorflow
+pwntools
+pycryptodome
