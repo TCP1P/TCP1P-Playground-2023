@@ -398,12 +398,15 @@
       "category": "Web",
       "source": "Web/fetcher/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/fetcher",
-      "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'container' imported as StaticAttachment"
+        "portable single-service Docker runtime promoted from 'container' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{fe[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Web/fetcher/challenge.yaml"
+      "manifest": "Jeopardy/Web/fetcher-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Greater Nonce Leak",
@@ -470,12 +473,15 @@
       "category": "Web",
       "source": "Web/prototype/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TCP1P-Playground-2023/tree/main/Web/prototype",
-      "type": "StaticAttachment",
-      "runtimeReason": "no container port could be inferred from the manifest, Dockerfile, or Compose target",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'container' imported as StaticAttachment"
+        "portable single-service Docker runtime promoted from 'container' to DynamicContainer",
+        "generated per-team flag template 'TCP1P{prototype_________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Web/prototype/challenge.yaml"
+      "manifest": "Jeopardy/Web/prototype-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "sequel",
